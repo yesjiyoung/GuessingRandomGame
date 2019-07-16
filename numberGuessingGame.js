@@ -40,7 +40,6 @@ function checkYourNumber(){
     else{
         if(isNaN(guessForm.value) === false){
     
-            var userGuess = Number(guessForm.value);
     
             if(userGuess >= 1 && userGuess <= 100 ){
                 guessCount++; //추가
